@@ -1,4 +1,4 @@
-# Code for VolTAGE: Volatility forecasting via Text-Audio fusion with Graph convolution networks for Earnings calls
+# VolTAGE: Volatility forecasting via Text-Audio fusion with Graph convolution networks for Earnings calls
 
 VolTAGE is a mutli-task volatility prediction model that uses cross-modal attention fusion across the text and speech modalities while learning the relational encodings between inter-dependent stocks. It contains the following four modules:
 
