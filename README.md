@@ -32,3 +32,14 @@ VolTAGE is a mutli-task volatility prediction model that uses cross-modal attent
 
  - The saved embeddings from the previous step must be saved at ```./multi-task-lstm-conditioning```. These are used as the hidden state for the conditioned LSTM trained on the past volatility values which can be generated from the data [here](https://finance.yahoo.com/)
  - Then to get the final model performance results run the python script using the command ```python3 ./multi-task-lstm-conditioning/stockspeech-final--lstm-cond.py```
+
+### Cite this Paper
+```
+@inproceedings{sawhney2020voltage,
+  title={VolTAGE: volatility forecasting via text-audio fusion with graph convolution networks for earnings calls},
+  author={Sawhney, Ramit and Khanna, Piyush and Aggarwal, Arshiya and Jain, Taru and Mathur, Puneet and Shah, Rajiv},
+  booktitle={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  pages={8001--8013},
+  year={2020}
+}
+```
