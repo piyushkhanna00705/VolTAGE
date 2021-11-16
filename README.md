@@ -34,6 +34,7 @@ VolTAGE is a mutli-task volatility prediction model that uses cross-modal attent
  - Then to get the final model performance results run the python script using the command ```python3 ./multi-task-lstm-conditioning/stockspeech-final--lstm-cond.py```
 
 ### Cite this Paper
+Consider citing our work if you use our codebase.
 ```
 @inproceedings{sawhney2020voltage,
   title={VolTAGE: volatility forecasting via text-audio fusion with graph convolution networks for earnings calls},
